@@ -1,0 +1,26 @@
+There are several options to translate text into english. 
+My investigation into the review text resulted in identification of 25 diffrent languages.
+I looked at the following API / sites and tried to translate. 
+
+Microsoft Translator Text API
+    Needs to open an account. $200 free credit for first 3 months
+Google API 
+    Easy inteface. Support to more than 100 languages. Free for 3 months with give credit. 
+    Privdes personal or service account. Personal trail account 
+    provides transalation for singnificant number of text. Easy to call API.
+Baidu 
+    Does not provide an english interface 
+Amazon API 
+    Requires signing in to AWS 
+Deep ML 
+    Supports 32 languages. Can use API or upload text. Uploading text did nottransalte all languages into english 
+
+Started with Google API since already familiar and API was east to use thru Python
+A key needs to be downloaded and paseed thru API call each time a text is translated. 
+Can autodetect language but that is another call. To save on calls I used python library to detect 
+non english text and called API for those to translate. The API will not respond after some calls
+and had to restart the program several times to complete the translations.
+
+
+
+
